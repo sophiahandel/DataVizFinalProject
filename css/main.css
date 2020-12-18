@@ -1,0 +1,54 @@
+.innovations:hover {
+    opacity: 1;
+}
+
+.innovations {
+    opacity: 0.5;
+}
+
+.label {
+    fill: black;
+    font-size: 12px;
+    text-anchor: middle;
+    font-family: "Domine", serif;
+}
+
+.checkboxes input {
+    margin: 80px 0px 0px 0px;
+}
+
+.checkboxes label {
+    margin: 80px 30px 0px 3px;
+}
+
+#golf-inputs {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#swim-inputs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.tile {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.tile text {
+    stroke: black;
+    fill: white;
+    font-family: "Varela Round", sans-serif;
+    font-size: 75px;
+}
+
+.tile:hover {
+    transition-duration: 500ms;
+    opacity: 1;
+}
